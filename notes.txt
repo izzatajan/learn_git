@@ -1,6 +1,15 @@
-git status                                        See status of staging area and untracket files
-git add profile.js                                Adding files to staging area
-git commit -m "Add edit profile feature"          Taking snapshot of the project
-git log                                           See commits history
-git checkout 9fa3d4c2b6dccd64f90418bf...          Activate the commit or branch
-git checkout main                                 Go to main branch from commits
+git branch -M main                                               Set branch name to "main"
+git status                                                       See status of staging area and untracket files
+git add profile.js                                               Adding files to staging area
+git add .                                                        Adding all files that have changes to staging area
+git commit -m "Add edit profile feature"                         Taking snapshot of the project
+git log                                                          See commits history
+git checkout 9fa3d4c2b6dccd64f90418bf...                         Activate the commit or branch
+git checkout main                                                Go to main branch from commits. U can put any branch then it goes to the branch's LAST COMMIT
+git remote add origin https://github.com/izzatajan/nabuy         Link remote repository from github with referance "origin" to the repository
+git push -u origin main                                          Push main branch to remote repository
+git branch balance                                               Creating a new branch called balance // after creating a new branch you can swith to it with (git branch <branchname>)
+git checkout -b balance                                          Create a new branch and immediently switch to it
+git push --set-upstream origin main                              Exporting main branch to remote repo by using origin //--set-upstream is like making the branch default so next time u only use git push inside this branch or its subbranch
+git push --u origin main                                         Is same as (git push --set-upstream origin main)
+git pull                                                         
