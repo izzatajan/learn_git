@@ -1,0 +1,5 @@
+git status                                        See status of staging area and untracket files
+git add profile.js                                Adding files to staging area
+git commit -m "Add edit profile feature"          Taking snapshot of the project
+git log                                           See commits history
+git checkout 9fa3d4c2b6dccd64f90418bf...          Activate the commit or branch
