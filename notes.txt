@@ -12,4 +12,4 @@ git branch balance                                               Creating a new 
 git checkout -b balance                                          Create a new branch and immediently switch to it
 git push --set-upstream origin main                              Exporting main branch to remote repo by using origin //--set-upstream is like making the branch default so next time u only use git push inside this branch or its subbranch
 git push --u origin main                                         Is same as (git push --set-upstream origin main)
-git pull                                                         
+git pull                                                        Import repository
